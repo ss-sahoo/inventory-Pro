@@ -114,7 +114,7 @@
 
 /* Mobile Sidebar Toggle */
 .sidebar-toggle {
-  display: none;
+  display: none !important;
   background: #667eea;
   color: white;
   border: none;
@@ -130,7 +130,6 @@
   transition: all 0.2s ease;
   width: 48px;
   height: 48px;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -769,7 +768,7 @@
 }
 
 /* Responsive Design */
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .sidebar {
     transform: translateX(-100%);
   }
@@ -791,8 +790,7 @@
   }
   
   .top-header {
-    padding-left: 4.5rem;
-    padding-right: 1rem;
+    padding: 0.75rem 1rem 0.75rem 4rem;
   }
   
   .content-area {
