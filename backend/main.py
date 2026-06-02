@@ -22,8 +22,7 @@ app.add_middleware(
         "https://localhost:3000",
         "https://*.vercel.app",  # Vercel deployments
         "https://*.netlify.app",  # Netlify deployments
-        # Add your specific frontend URL here after deployment:
-        # "https://your-frontend-name.vercel.app",
+        # Will be updated with actual frontend URL after deployment
     ],
     allow_credentials=True,
     allow_methods=["*"],
