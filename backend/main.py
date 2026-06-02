@@ -20,9 +20,9 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:3000",  # Local development
         "https://localhost:3000",
+        "https://inventory-frontend05.netlify.app",  # Your deployed frontend
         "https://*.vercel.app",  # Vercel deployments
         "https://*.netlify.app",  # Netlify deployments
-        # Will be updated with actual frontend URL after deployment
     ],
     allow_credentials=True,
     allow_methods=["*"],
